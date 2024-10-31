@@ -1,0 +1,68 @@
+29 / Octubre / 2024
+
+Info contacto: 
+Email: jaguzman@unal.edu.co 
+
+Horario de atencion:
+Lunes de 2:30 a 4:30
+Facultad de minas, M8A, 306
+
+Monitores:
+Carlos: Email: camontoyah@unal.edu.co
+        Lunes 7-8 pm
+David Martin: Email: dmartinac@unal.edu.co
+              Domingo 7-8 pm
+
+///////////////////////////////////////////////////////////
+Se trabajan 2 lenguajes, Java y Python
+
+2 parciales: 15%        1 - Nov 28
+                        2 - Ene 23
+
+Seguimiento: Clases Practicas y Talleres Asincronicos 30%
+
+Trabajos Practicas: 1 - Ene 28 y 30 (en java)-Virtual    20%        Sin GUI
+                    2 - Feb 25 y 27 (en Python)-Virtual  20%        Con GUI
+
+OCP, order certificed Professional Java SE 11 developer Study Guide
+Python object - Oriented Programming
+
+Java: https://www.oracle.com/java/
+Java 2 Standar edition: https://www.oracle.com/java/technologies/downloads/#java21
+
+Entorno:
+Eclipse. https://eclipse.org/downloads/
+
+TODO TRABAJO TIENE QUE ESTAR DOCUMENTADO
+////////////////////////////////////////////////////////////////////////
+
+Paradigmas: Conjunto de metodos, reglas y generalizaciones
+        moldea la forma de:
+                Razonar sobre problemas
+                Formular soluciones
+                Estructurar programas
+
+            |- Imperativos: Estructurados y Orientado a objetos
+Paradigmas: |
+            |- Declarativos: Funcional y Logico
+
+POO:
+La solucion de un problema se plantea en terminos de objetos y las relaciones entre ellos
+
+Objeto: atributos y Operaciones
+Para modelar un objetos se utilizan los diagramas de UML (lenguajes unificado de modelado)
+
+Ejm:   POO
+        class carro:
+                ruedas = 4
+                def _init_(self, color, aceleracion):
+                        self.color = color
+                        self.aceleracion = aceleracion
+                        self.velocidad = 0
+                def acelera(self):
+                        self.velocidad = self.velocidad + self.aceleracion
+                def frena(self):
+                        v = self.velocidad + self.aceleracion
+                        if v < 0:
+                           v = 0
+                        self.velocidad = v
