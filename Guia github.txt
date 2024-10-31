@@ -3,8 +3,9 @@ Se conecta con git en la terminal de VSC usando los comandos de git y el link qu
     Comandos git:
               git init
               git status
-commit        git add nombrearchivo
+              git add nombrearchivo
               git add .             (agrega todo lo que esta en rojo)
               git commit -m "mensaje"
               git push              (subir los archivos a github)
-              
+////////////////////////////////////////////////////////////////////
+
